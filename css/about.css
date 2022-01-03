@@ -1,0 +1,377 @@
+body
+{
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.home .navbar-nav {
+  margin-left: 9%;
+}
+.home .navbar-nav li {
+  margin-left: 30px;
+}
+.home .navbar-nav li i {
+  margin-top: 13px;
+}
+.home .navbar {
+  border-bottom: 1px solid rgba(221, 221, 221, 0.25);
+  font-size: 16px;
+}
+.home .navbar-light .navbar-toggler-icon {
+  background-image: none;
+}
+.navbar-light .navbar-toggler {
+  background-color: #fff;
+  color: #000;
+}
+.home .navbar-toggler-icon {
+  width: 3em;
+}
+.home .nav-item .special {
+  color: #feac00 !important;
+}
+.home .nav-item .nav-link:hover {
+  color: #feac00 !important;
+}
+.home .items a {
+  color: #fff !important;
+}
+.home .nav-item i {
+  font-size: 20px;
+  color: #fff;
+}
+.home .nav-item i:hover {
+  color: #feac00;
+}
+.home .dropdown-menu a {
+  color: #000 !important;
+}
+.home .dropdown-menu a:hover {
+  color: #feac00 !important;
+  background-color: transparent;
+}
+.home .navbar-brand {
+  font-size: 30px;
+}
+.home {
+    background-image: url(../images/banner1.jpg);
+    background-position: center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+  }
+  .content a , p
+  {
+      margin-right: 15px;
+      text-decoration: none;
+  }
+  .content a
+  {
+      color: #feac00;
+  }
+
+  .content .about ,p
+  {
+      color: #fff;
+  }
+  .home .layer {
+    width: 100%;
+  
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  .aboutUs .content {
+    padding: 40px;
+  }
+  .aboutUs .content h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000;
+  }
+  .aboutUs .content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+    margin-top: 20px;
+  }
+  .aboutUs span {
+    color: #feac00;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .aboutUs .content button {
+    margin-top: 20px;
+    border: none;
+    background-color: #feac00;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: #222;
+  }
+  .aboutUs .content button:hover {
+    background-color: #212529;
+    color: #feac00;
+    transition: 1s;
+  }
+  .change
+  {
+    background-color: #f7f7f7;
+    padding: 50px;
+  }
+  .change h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #000;
+  }
+  .change p
+  {
+    color: #777;
+    /* margin-bottom: 20px; */
+  }
+  .change button
+  {
+    margin-top: 20px;
+    border: none;
+    background-color: #feac00;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: #222;
+  }
+  .change button:hover
+  {
+    background-color: #212529;
+    color: #feac00;
+    transition: 0.5s;
+    transition-delay: 0.1s;
+  }
+  .change .line
+  {
+    margin-top: 40px;
+    width: 100%;
+    height: 1.25px;
+    background-color: #ddd;
+  }
+  .change .items i
+  {
+  margin-right: 15px;
+  color: #ffc107;
+  font-size: 30px;
+  }
+  .change .items h4
+  {
+      font-size: 22px;
+      margin-bottom: 10px;
+  }
+  .change .items h4:hover
+  {
+    color: #ffc107;
+    transition: 1s;
+  }
+.change h2:hover
+{
+    color: #ffc107;
+    transition: 0.5s;
+}
+.team h2
+{
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.team .caption
+{
+    padding: 20px;
+}
+.team p
+{
+    color: #777;
+}
+.team .icons 
+{
+  color: #333;
+  margin-left:25%;
+}
+.team .icons i
+{
+    margin-right: 30px;
+}
+.team img
+{
+  border-radius: 10px;
+}
+.team .item
+{
+  position: relative;
+  overflow: hidden;
+}
+.team .layer
+{
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  border-radius: 10px;
+}
+.team .layer:hover
+{
+  opacity: 0.8;
+
+}
+.news
+{
+  padding: 30px;
+}
+.news h2
+{
+  color: #000;
+  font-size: 45px;
+}
+.news p
+{
+ 
+      font-size: 1.1em;
+      font-weight: 600;
+      color: #555;
+      margin: 10px;
+}
+.news button
+{
+
+  border: none;
+  background-color: #feac00;
+  padding: 15px 90px;
+  border-radius: 5px;
+  color: #222;
+  font-size: 22px;
+}
+.news button:hover
+{
+  background-color: #212529;
+  color: #feac00;
+  transition: 0.5s;
+  transition-delay: 0.1s;
+}
+.footer
+{
+  background-color: #222;
+  padding: 60px;
+}
+.footer p
+{
+  font-size: 15px;
+    color: #777;
+    font-weight: normal;
+    letter-spacing: .5px;
+}
+.footer h2
+{
+  color: #fff;
+  font-size: 20px;
+}
+.footer h5
+{
+  color: #777;
+  font-size: 25px;
+}
+.footer span
+{
+  color: #feac00;
+}
+.footer .icons i
+{
+  color: #fff;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.footer ul li 
+{
+  font-size: 15px;
+    color: #777;
+    margin-top: 10px;
+}
+.footer ul li a
+{
+  font-size: 15px;
+    color: #777;
+    text-decoration: none;
+}
+.footer ul li a:hover
+{
+  color: #555;
+}
+.footer ul li:hover
+{
+    color: #555;
+}
+.footer .special  ul li 
+{
+  font-size: 15px;
+    color: #777;
+    margin-top: 15px;
+}
+  @media screen and (max-width: 1100px) and (min-width: 767px) {
+    .about .content {
+      padding: 10px;
+    }
+  }
+  @media screen and (max-width: 766px) and (min-width: 320px) {
+    .about .content {
+      padding: 10px;
+    }
+  }
+  @media screen and (max-width: 1100px) and (min-width: 767px) {
+    .change
+  {
+    padding: 20px;
+  }
+  }
+  @media screen and (max-width: 766px) and (min-width: 320px) {
+    .change
+    {
+      padding: 20px;
+    }
+  }
+  @media screen and (max-width: 1100px) and (min-width: 767px) {
+    .change .items
+  {
+    padding: 0px !important;
+    margin-top: 10px;
+  }
+  }
+  @media screen and (max-width: 766px) and (min-width: 320px) {
+    .change .items
+    {
+      padding: 0px !important;
+      margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 1100px) and (min-width: 767px) {
+    .team .icons
+  {
+    margin-left:20%;
+  }
+  }
+  @media screen and (max-width: 766px) and (min-width: 320px) {
+    .team .icons
+    {
+    margin-left: 20%;
+    }
+  }
+  @media screen and (max-width: 1100px) and (min-width: 767px) {
+    .footer .icons
+  {
+    margin-bottom: 20px;
+    margin-left: 5px !important;
+  }
+  }
+  @media screen and (max-width: 766px) and (min-width: 320px) {
+    .footer .icons
+    {
+    margin-bottom: 20px;
+    margin-left: 5px !important;
+
+    }
+  }
+  

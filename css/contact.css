@@ -1,0 +1,244 @@
+body
+{
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.home .navbar-nav {
+  margin-left: 9%;
+}
+.home .navbar-nav li {
+  margin-left: 30px;
+}
+.home .navbar-nav li i {
+  margin-top: 13px;
+}
+.home .navbar {
+  border-bottom: 1px solid rgba(221, 221, 221, 0.25);
+  font-size: 16px;
+}
+.home .navbar-light .navbar-toggler-icon {
+  background-image: none;
+}
+.navbar-light .navbar-toggler {
+  background-color: #fff;
+  color: #000;
+}
+.home .navbar-toggler-icon {
+  width: 3em;
+}
+.home .nav-item .special {
+  color: #feac00 !important;
+}
+.home .nav-item .nav-link:hover {
+  color: #feac00 !important;
+}
+.home .items a {
+  color: #fff !important;
+}
+.home .nav-item i {
+  font-size: 20px;
+  color: #fff;
+}
+.home .nav-item i:hover {
+  color: #feac00;
+}
+.home .dropdown-menu a {
+  color: #000 !important;
+}
+.home .dropdown-menu a:hover {
+  color: #feac00 !important;
+  background-color: transparent;
+}
+.home .navbar-brand {
+  font-size: 30px;
+}
+.home {
+    background-image: url(../images/banner1.jpg);
+    background-position: center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+  }
+  .content a , p
+  {
+      margin-right: 15px;
+      text-decoration: none;
+  }
+  .content a
+  {
+      color: #feac00;
+  }
+
+  .content .contact ,p
+  {
+      color: #fff;
+  }
+  .home .layer {
+    width: 100%;
+  
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  .contactUs .content {
+    padding: 40px;
+  }
+  .contactUs .content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+  }
+  .contactUs .content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+    margin-top: 20px;
+  }
+  .contactUs span {
+    color: #feac00;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .contactUs .content button {
+    margin-top: 20px;
+    border: none;
+    background-color: #feac00;
+    padding: 15px 45px;
+    border-radius: 5px;
+    color: #222;
+    margin-left: 43%;
+
+  }
+  .contactUs .content button:hover {
+    background-color: #212529;
+    color: #feac00;
+    transition: 1s;
+  }
+  .contactUs input
+  {
+      height: 50px;
+  }
+  .contactUs label
+  {
+      color: #555;
+  }
+  .contactUs input
+  {
+    background: rgba(247, 247, 247, 0.29);
+  }
+  .contactUs textarea
+  {
+    background: rgba(247, 247, 247, 0.29);
+  }
+  .news
+{
+  padding: 30px;
+}
+.news h2
+{
+  color: #000;
+  font-size: 45px;
+}
+.news p
+{
+ 
+      font-size: 1.1em;
+      font-weight: 600;
+      color: #555;
+      margin: 10px;
+}
+.news button
+{
+
+  border: none;
+  background-color: #feac00;
+  padding: 15px 90px;
+  border-radius: 5px;
+  color: #222;
+  font-size: 22px;
+}
+.news button:hover
+{
+  background-color: #212529;
+  color: #feac00;
+  transition: 0.5s;
+  transition-delay: 0.1s;
+}
+.footer
+{
+  background-color: #222;
+  padding: 60px;
+}
+.footer p
+{
+  font-size: 15px;
+    color: #777;
+    font-weight: normal;
+    letter-spacing: .5px;
+}
+.footer h2
+{
+  color: #fff;
+  font-size: 20px;
+}
+.footer h5
+{
+  color: #777;
+  font-size: 25px;
+}
+.footer span
+{
+  color: #feac00;
+}
+.footer .icons i
+{
+  color: #fff;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.footer ul li 
+{
+  font-size: 15px;
+    color: #777;
+    margin-top: 10px;
+}
+.footer ul li a
+{
+  font-size: 15px;
+    color: #777;
+    text-decoration: none;
+}
+.footer ul li a:hover
+{
+  color: #555;
+}
+.footer ul li:hover
+{
+    color: #555;
+}
+.footer .special  ul li 
+{
+  font-size: 15px;
+    color: #777;
+    margin-top: 15px;
+}
+  @media screen and (max-width: 1100px) and (min-width: 767px) {
+    .contactUs .content {
+      padding: 10px;
+    }
+  }
+  @media screen and (max-width: 766px) and (min-width: 320px) {
+    .contactUs .content {
+      padding: 10px;
+    }
+  }
+  @media screen and (max-width: 1100px) and (min-width: 767px) {
+    .contactUs .content .sub {
+      margin-left: 35%;
+    }
+  }
+  @media screen and (max-width: 766px) and (min-width: 320px) {
+    .contactUs .content .sub {
+      margin-left: 35%;
+    }
+  }
